@@ -1,7 +1,14 @@
-print("This programme is to calculate the BMI of an individual\n")
+#Printing programme instructions 
+print("This programme is to calculate the BMI of an individual\n") 
+#Ask the user for input and convert to float number and store in weight variable 
 weight= float(input("Enter your weight here: "))
-height = float(input("Enter your height here: ")) #180cm to be inputted as 1.8
-
+#Ask the user for input and convert to float number and store in height variable 
+height = float(input("Enter your height here(in metres): ")) #180cm to be inputted as 1.8
+#If user input is above 100 then we know they're inputting CM, therefore we convert to metres
+if height > 100: 
+    height=height/100
+    
 bmi = weight / (height ** 2 )
 
+#Print the calculations mentoned
 print(bmi)
