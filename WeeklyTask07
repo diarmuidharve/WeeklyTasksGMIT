@@ -1,12 +1,12 @@
 def countE(filename):
-    file = open(filename,"r")
-    text = file.read()
+    file = open(filename,"r") #Open file sent in in readMode
+    text = file.read()  #read contents of file and store in text variable 
 
-    count = 0 
-    for x in text: 
-        if x == "e" or x == "E":
-            count += 1
+    count = 0 #Initalize count variable
+    for x in text: #For every character in text of file
+        if x == "e" or x == "E": #If character equal E or e
+            count += 1 #Add 1 to the count
             
-    return count
+    return count #Returning count variable/answer
 
 print(countE("Weekltask07.txt"))
