@@ -1,2 +1,5 @@
-sentence = input("Input a sentence that you want reversed:")
+#Enter sentence you want to revrse and replace every second character 
+sentence = input("Input a sentence that you want reversed:") 
+#The interval it goes through and display every second character 
 print(sentence[::-2])
+#.o zletrv pu o wr cu h
