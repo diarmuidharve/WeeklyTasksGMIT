@@ -1,0 +1,20 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+x = np.array(range(0,5)) # range isnt inclusive of ending value
+y = x ** 2
+
+plt.plot(x, y, label='y = x ** 2')
+plt.title('Weekly Tasks 08')
+
+plt.xlabel('x')
+plt.ylabel('y')
+
+plt.xlim(0, 5 )
+plt.ylim(0, 16)
+
+plt.grid(alpha=.4,linestyle='--')
+
+plt.legend()
+
+plt.show()
