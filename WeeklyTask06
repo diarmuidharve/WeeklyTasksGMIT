@@ -1,18 +1,18 @@
-def sqrt(number, number_iters = 100):
+def sqrt(number): #Defining the function
 
-    a = float(number) 
+    a = number #Assign a to be the variable we are computing 
 
-    while (True): 
-        computed  = 0.5 * (a + (number / a)) 
+    while (True): #Continiously run
+        computed  = 0.5 * (a + (number / a)) #compute the sqrt of a number
         
-        if (abs(computed - a) < 1): 
+        if (abs(computed - a) < 1): #determine if we should compute again
             break
         
-        a = computed
+        a = computed #Reasign a to be next computable number 
         
-    return computed
+    return computed #Return said value 
 
-a = int(input("Enter a floating number: "))
+a = float(input("Enter a floating number: "))
 
 
 print("Square root of number:",sqrt(a))
