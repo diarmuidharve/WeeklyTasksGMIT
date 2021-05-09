@@ -1,0 +1,18 @@
+def sqrt(number, number_iters = 100):
+
+    a = float(number) 
+
+    while (True): 
+        computed  = 0.5 * (a + (number / a)) 
+        
+        if (abs(computed - a) < 1): 
+            break
+        
+        a = computed
+        
+    return computed
+
+a = int(input("Enter a floating number: "))
+
+
+print("Square root of number:",sqrt(a))
