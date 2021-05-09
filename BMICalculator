@@ -1,0 +1,7 @@
+print("This programme is to calculate the BMI of an individual\n")
+weight= float(input("Enter your weight here: "))
+height = float(input("Enter your height here: ")) #180cm to be inputted as 1.8
+
+bmi = weight / (height ** 2 )
+
+print(bmi)
