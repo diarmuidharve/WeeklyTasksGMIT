@@ -1,12 +1,13 @@
-number = int(input())         # ERROR! if a text string or float is input.
-    collatz(number)
-except ValueError:
-    print('You must enter an integer type.')
-while number != 1:
-        if number % 2 == 0:
+def collatz(number): 
+    while number != 1: #While number is devisable, or does not equal one excecute the function 
+        if number % 2 == 0: #If number is even divide by two and print, otherwise go to line 7
             number = number // 2
             print(number)
 
-        elif number % 2 == 1:
+        elif number % 2 == 1: #Number is odd, multiply by three and add one 
             number = number * 3 + 1
             print(number)
+            
+number = int(input("Please enter a valid integer: "))
+
+collatz(number)
