@@ -1,8 +1,8 @@
-import datetime
-
-weekno = datetime.datetime.today().weekday()
-
-if weekno < 5:
+import datetime #Importing a python library named datetime 
+#Use datetime functions today and weekday, to assign day of the weeeknumber
+weekno = datetime.datetime.today().weekday() 
+#Weekday returns 0-6(Monday equals 0)
+if weekno < 5: #Monday to Friday is 0-4
     print("Yes, unfortunately today is a weekday.")
 else:  # 5 Sat, 6 Sun
     print("It is the weekend, yay!")
