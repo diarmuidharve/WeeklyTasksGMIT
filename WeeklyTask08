@@ -1,20 +1,21 @@
 import matplotlib.pyplot as plt
 import numpy as np
+#Import necessary libraries
 
 x = np.array(range(0,5)) # range isnt inclusive of ending value
-y = x ** 2
+y = x ** 2 #Define Y axis values 
 
-plt.plot(x, y, label='y = x ** 2')
-plt.title('Weekly Tasks 08')
+plt.plot(x, y, label='y = x ** 2') #Plot X and Y axis values
+plt.title('Weekly Tasks 08') #Plot the title for our graph
 
-plt.xlabel('x')
-plt.ylabel('y')
+plt.xlabel('x') #Define X axis label 
+plt.ylabel('y') #Define Y axis label 
 
-plt.xlim(0, 5 )
-plt.ylim(0, 16)
+plt.xlim(0, 5 ) #Define boundry for X axis
+plt.ylim(0, 16) #Define boundry for Y axis
 
-plt.grid(alpha=.4,linestyle='--')
+plt.grid(alpha=.4,linestyle='--') #Styling the plot
 
-plt.legend()
+plt.legend() #Add legend 
 
-plt.show()
+plt.show() #Actualy display the graph
