@@ -63,4 +63,11 @@ Topic eight:
 
 ![image](https://user-images.githubusercontent.com/78098791/117673598-37e1c900-b1ab-11eb-94e7-7919ee1cfaa9.png)
 
-
+**References:**
+Topic 2: https://www.youtube.com/watch?v=TrP3gM0r2IE&t=311s
+Topic 3: https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/
+Topic 4: https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
+Topic 5: https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
+Topic 6: https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
+Topic 7: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
+Topic 8: https://medium.com/future-vision/plotting-equations-in-python-d0edd9f088c8
