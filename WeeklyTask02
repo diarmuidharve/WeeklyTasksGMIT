@@ -1,3 +1,4 @@
+#Refernce: https://www.youtube.com/watch?v=TrP3gM0r2IE&t=311s
 #Printing programme instructions 
 print("This programme is to calculate the BMI of an individual\n") 
 #Ask the user for input and convert to float number and store in weight variable 
