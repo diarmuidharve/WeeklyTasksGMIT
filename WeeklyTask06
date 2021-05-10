@@ -1,3 +1,4 @@
+#Reference: https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
 def sqrt(number): #Defining the function
 
     a = number #Assign a to be the variable we are computing 
