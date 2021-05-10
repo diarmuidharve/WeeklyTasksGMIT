@@ -1,3 +1,4 @@
+#Reference: https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
 def countE(filename):
     file = open(filename,"r") #Open file sent in in readMode
     text = file.read()  #read contents of file and store in text variable 
