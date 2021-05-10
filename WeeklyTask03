@@ -1,3 +1,4 @@
+#Reference: https://www.geeksforgeeks.org/reverse-string-python-5-different-ways/
 #Enter sentence you want to revrse and replace every second character 
 sentence = input("Input a sentence that you want reversed:") 
 #The interval it goes through and display every second character 
