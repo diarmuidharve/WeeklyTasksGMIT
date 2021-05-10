@@ -1,3 +1,4 @@
+#Refernce: https://stackoverflow.com/questions/33508034/making-a-collatz-program-automate-the-boring-stuff
 def collatz(number): 
     while number != 1: #While number is devisable, or does not equal one excecute the function 
         if number % 2 == 0: #If number is even divide by two and print, otherwise go to line 7
