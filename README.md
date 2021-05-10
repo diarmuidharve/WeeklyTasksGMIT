@@ -27,6 +27,9 @@ In this week’s tasks we were instructed to find a method of getting the square
 
 Topic seven: 
 During this week we focused on importing files, and counting instances of the number of E’s
+
 Topic eight: 
- 
-For this week’s task we were instructed to plot a graph 
+ For this week’s task we were instructed to plot a graph 
+ ![image](https://user-images.githubusercontent.com/78098791/117673598-37e1c900-b1ab-11eb-94e7-7919ee1cfaa9.png)
+
+
